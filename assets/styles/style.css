@@ -1,0 +1,207 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div {
+    display: block;
+}
+
+.home {
+	background: url(../images/bg.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+h1 {
+	color: #347474;
+	font-size: 50px;
+}
+
+.btn {
+	background-color: #e89da2;
+	color: black;
+	border-style: none;
+	padding: 10px 30px;
+	border-radius: 20px;
+	transition: .4s;
+	font-size: 12pt;
+}
+
+.btn:hover {
+	background-color: salmon;
+}
+
+.about-archi {
+	background: url(../images/div2.jpg);
+	height: 100vh;
+	display: flex;
+	background-size: cover;
+    background-position: center;
+}
+
+.archi-means {
+	height: 100vh;
+	width: 50%;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+	align-items: center;
+}
+
+.archi-title{
+	color: #007944;
+}
+
+.archi-definition {
+	color: #4dd599;
+	font-weight: 600;
+	background-color: #ffd369;
+    padding: 10px 30px;
+}
+
+.archi-work {
+	margin: 0 50px;
+    color: #4dd599;
+    font-weight: 700;
+    background-color: #ffd369;
+    padding: 10px 30px;
+}
+
+.architect-content {
+	height: 100vh;
+	width: 50%;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.architecture-img > img {
+	height: 230px;
+	width: 300px;
+	padding: 60px;
+}
+
+.profile {
+	height: 280px;
+    width: 210px;
+    border-radius: 25%;
+}
+
+.about-gaudi {
+	font-size: 12pt;
+    margin-top: 10px;
+    color: #f5dea3;
+    font-weight: 500;
+    background-color: #018383;
+    padding: 10px 30px;
+}
+
+.div3 {
+	background: url(../images/div3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.antoni-gaudi {
+	width: 30vw;
+}
+
+.gallery {
+	background: url(../images/div4.jpg);
+	height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.gallery-photos > img {
+	margin-top: 20px;
+	height: 200px;
+	width: 200px;
+	border: solid white;
+}
+
+.gallery-photos > img {
+	transition: 0.5s;
+}
+
+.gallery-photos > img:hover {
+	transform: scale(1.25);
+}
+
+.archi-name {
+	color: #ffd800;
+}
+
+.contact-us {
+	height: 100vh;
+	background-color: burlywood;
+	background: url(../images/div5.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+form {
+	width: 50%;
+	align-items: center;
+}
+
+.form-contents, .contact-quotes {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-input	{
+	display: block;
+	width: 100%;
+	font-size: 15px;
+	margin: 10px 0;
+	border-radius: 6px;
+}
+
+.btn-contact {
+	text-align: center;
+}
+
+.quotes {
+	font-size: 20pt;
+	color: #f45905;
+	font-weight: 800;
+}
+
+span {
+	color: #10316b;
+}
+
+.navbar {
+	background-color: rgba(243, 178, 60, 0.75);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    font-family: 'Lora', serif;
+}
+}
