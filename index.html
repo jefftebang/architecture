@@ -7,30 +7,31 @@
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
 
+	<!-- Favicon -->
+	<link rel="icon" href="assets/auto.ico">
+
 </head>
 <body>
 	
 	<!-- Div1 -->
-	<div class="home">
+	<div class="home" id="home">
 		<div>
 			<h1>Architectural Designs</h1>
-			<button class="btn">Learn more</button>
+			<button class="btn"><a href="#architecture">Learn more</a></button>
 		</div>
 	</div>
 	
 	<!-- Navbar -->
 	<div class="navbar">
-		<a href="">Summer Destinations</a>
-			<ul class="navbar-list">
-				<li><a href="#home">Home</a></li>
-				<li><a href="#aboutMe">About Me</a></li>
-				<li><a href="#gallery">Gallery</a></li>
-				<li><a href="#contactMe">Contact Me</a></li>
-			</ul>
+		<a href="#home">Architectural Designs</a>
+		<a href="#contact" class="right-nav">Contact us</a>
+		<a href="#gallery" class="right-nav">Gallery</a>
+		<a href="#about" class="right-nav">About</a>
+		<a href="#architecture" class="right-nav">Architecture</a>
 	</div>
 
 	<!-- Div2 -->
-	<div class="about-archi">
+	<div class="about-archi" id="architecture">
 		<div class="archi-means">
 			<div class="archi-content">
 				<h1 class="archi-title">Architecture</h1>
@@ -54,7 +55,7 @@
 	</div>	
 
 	<!-- Div3 -->
-	<div class="div3">
+	<div class="div3" id="about">
 		<div class="antoni-gaudi">
 			<img src="assets/images/architect-img.jpg" alt="gaudi photo" class="profile">
 			<div class="about-gaudi">
@@ -66,7 +67,7 @@
 	</div>	
 
 	<!-- Div4 -->
-	<div class="gallery">
+	<div class="gallery" id="gallery">
 		<h1 class="archi-name">Gaudi's Works</h1>
 		<div class="gallery-photos">
 			<img src="assets/images/image1.jpg">
@@ -79,7 +80,7 @@
 	</div>
 
 	<!-- Div5 -->
-	<div class="contact-us">
+	<div class="contact-us" id="contact">
 		<div class="form-contents">
 			<form action="">
 				<input type="text" name="name" class="form-input" placeholder="Enter your full name">
